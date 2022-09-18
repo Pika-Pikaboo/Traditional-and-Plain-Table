@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+		<script>
+			tailwind.config = {
+			theme: {
+				container: {
+					center: true,
+					padding: '1.5rem',
+				},
+				screens: {
+					xs: "568px",
+					sm: "640px",
+					md: "768px",
+					lg: "992px",
+					xl: "1080px",
+					xxl: "1440px",
+					xxxl: "2140px",
+				},
+				fontFamily: {
+					lora: ['Lora', 'serif'],
+					mont: ['Montserrat', 'sans-serif']
+				},
+				borderWidth: {
+					DEFAULT: '1px',
+					'none': '0px',
+					'1': '1px',
+					'2': '2px',
+					'3': '3px',
+					'4': '4px',
+					'5': '5px',
+					'6': '6px',
+					'7': '7px',
+					'8': '8px',
+					'9': '9px',
+					'10': '10px',
+				},
+				outlineWidth: {
+					'0': '0px',
+					'1': '1px',
+					'2': '2px',
+					'3': '3px',
+					'4': '4px',
+					'5': '5px',
+					'6': '6px',
+					'7': '7px',
+					'8': '8px',
+					'9': '9px',
+					'10': '10px',
+				},
+			}
+		}
+		</script>
+		<style type="text/tailwindcss">
+		</style>
+		<title>Tailwind</title>
+	</head>
+
+	<body>
+		<table class="w-1/2 table-fixed mx-auto mt-20 text-center leading-10 border">
+			<thead class="bg-slate-400 text-white text-2xl border">
+				<tr>
+					<th class="p-4 text-center">Name </th>
+					<th class="p-4 text-center">Age </th>
+					<th class="p-4 text-center">Major</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="border p-4">Marn Htet Zan and Mother fucker are here</td>
+					<td class="border p-4">21</td>
+					<td class="border p-4">Computer Science</td>
+				</tr>
+				<tr>
+					<td class="border p-4">Wynn Naing Swe </td>
+					<td class="border p-4">20 </td>
+					<td class="border p-4">Hacker</td>
+				</tr>
+				<tr>
+					<td class="border p-4">Kyaw Zin Thu </td>
+					<td class="border p-4">19 </td>
+					<td class="border p-4">Pornstar</td>
+				</tr>
+			</tbody>
+			<tfoot class="bg-amber-400 text-white text-2xl">
+				<tr>
+					<td class="border p-4">End </td>
+					<td class="border p-4">End </td>
+					<td class="border p-4">End</td>
+				</tr>
+			</tfoot>
+		</table>
+		<div class="table table-fixed border-collapse w-1/2 mx-auto mt-20 text-center leading-10 border" aria-label="table">
+			<div class="table-header-group bg-slate-400 text-white text-2xl">
+				<div class="table-row">
+					<div class="table-cell p-4 text-center">Name </div>
+					<div class="table-cell p-4 text-center">Age </div>
+					<div class="table-cell p-4 text-center">Major</div>
+				</div>
+			</div>
+			<div class="table-row-group">
+				<div class="table-row">
+					<div class="table-cell border p-4">Marn Htet Zan and mother fucker are here</div>
+					<div class="table-cell border p-4">21</div>
+					<div class="table-cell border p-4">Computer Science</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell border p-4">Wynn Naing Swe </div>
+					<div class="table-cell border p-4">20 </div>
+					<div class="table-cell border p-4">Hacker</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell border p-4">Kyaw Zin Thu </div>
+					<div class="table-cell border p-4">19 </div>
+					<div class="table-cell border p-4">Pornstar</div>
+				</div>
+			</div>
+			<div class="table-footer-group bg-amber-400 text-white text-2xl">
+				<div class="table-row">
+					<div class="table-cell border p-4">End</div>
+					<div class="table-cell border p-4">End</div>
+					<div class="table-cell border p-4">End</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
